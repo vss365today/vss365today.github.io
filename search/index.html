@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Search #vss365 prompts | #vss365 today</title>
+
+  <link rel="shortcut icon" href="/static/favicon.png">
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Josefin+Slab:wght@400;600;700&family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap">
+  <meta name="theme-color" content="#82eeee">
+  <meta name="title" content="#vss365 today | Search #vss365 prompts">
+  <meta name="description" content="See historical #vss365 prompts">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tail.select@0.5.15/css/modern/tail.select-light.min.css">
+
+</head>
+
+<body>
+  <section class="area-alerts">
+    <div class="msg-alert info" role="alert">
+      <p>You're viewing an unchanging archive of <em>#vss365 today</em>, created on February 16, 2024. <a style="border-bottom: 2px solid currentColor" href="https://web.archive.org/web/20240216154736/https://blog.codetri.net/vss365today-permanent-archive/">Learn more.</a></p>
+    </div>
+</section>
+
+  <header>
+  <div>
+    <h1 id="site-title"><a href="/">
+      <span id="vss365">#vss365</span><span id="today">today</span></a>
+    </h1>
+
+    <h2 id="page-title">Search #vss365 prompts</h2>
+  </div>
+
+  <nav class="primary">
+  <a class="nav-link " id="btn-today" href="/">Today</a>
+  <a class="nav-link " id="btn-browse" href="/browse">Browse</a>
+  <a class="nav-link active" id="btn-search" href="/search">Search</a>
+  <a class="nav-link " id="btn-about" href="/about">About</a>
+  <a class="nav-link " id="btn-stats" href="/stats">Stats</a>
+</nav>
+</header>
+
+  <main id="main">
+<section class="page">
+  <h2 class="center">&OpenCurlyDoubleQuote;We're all searching for life's meaning... or maybe just a word's definition.&CloseCurlyDoubleQuote;</h2>
+
+  <p>Trying to find a prompt that you liked? Maybe you want to see the prompt for a specific day? Is there a author you just absolutely adore? How about finding inspiration for your WIP? Whatever your reason, you can search the complete archive of all #vss365 prompts.</p>
+  <p>If you can't find what you are looking for, the complete archive is <a href="/browse">available to download</a> for more complicated searches. 😀</p>
+
+  <h3 class="left">Search tips</h3>
+<ul class="left">
+  <li>You can search for words, like <strong>braid</strong>, exact dates (such as <strong>July 31, 2020</strong>), or a host's Twitter name (<strong>vss365official</strong> 😉).</li>
+  <li>Exact and partial word matches are supported (e.g., <strong>ai</strong> will match all words containing those two letters.).</li>
+  <li>If a single result is found, you will be taken directly to the prompt.</li>
+</ul>
+
+<div class="form-search-tabs center-block">
+  <div class="tab-wrapper">
+    <div class="tab word active"><label for="query">Word search</label></div>
+    <div class="tab date"><label for="query">Date search</label></div>
+    <div class="tab host"><label for="input-search-host">Host search</label></div>
+  </div>
+
+  <form class="form-search word active" method="GET" action="/search/results">
+    <input id="type" name="type" type="hidden" value="word">
+    <input id="query" name="query" placeholder="braid" required type="search" value="">
+    <button type="submit">Search</button>
+  </form>
+
+  <form class="form-search date" method="GET" action="/search/results">
+    <input id="type" name="type" type="hidden" value="date">
+    <input id="query" max="2023-11-10" name="query" pattern="\d{4}-\d{2}-\d{2}" placeholder="2020-07-02" required type="date" value="">
+    <button type="submit">Search</button>
+  </form>
+
+  <form class="form-search host" method="GET" action="/search/results">
+    <input id="type" name="type" type="hidden" value="host">
+    <select name="query" id="input-search-host">
+      <option value=""></option>
+      <option value="AlisaWillemse">AlisaWillemse</option><option value="ms_took">ms_took</option><option value="Brennan_and_Riz">Brennan_and_Riz</option><option value="DesiWilloughby">DesiWilloughby</option><option value="katz49226703">katz49226703</option><option value="250Fiction">250Fiction</option><option value="writes_jo">writes_jo</option><option value="anaskewauthor">anaskewauthor</option><option value="auntie_social">auntie_social</option><option value="LaraRouseWrites">LaraRouseWrites</option><option value="nancyd_writes">nancyd_writes</option><option value="writerzoe">writerzoe</option><option value="ErinQuill8">ErinQuill8</option><option value="SRoseWrites">SRoseWrites</option><option value="UlaneVuorio">UlaneVuorio</option><option value="OminousHallways">OminousHallways</option><option value="F_J_MacGregor">F_J_MacGregor</option><option value="ImuraJohn">ImuraJohn</option><option value="XifosPress">XifosPress</option><option value="JayHeltzerWrite">JayHeltzerWrite</option><option value="SistersUKUS">SistersUKUS</option><option value="CalebEchterling">CalebEchterling</option><option value="MKBeker">MKBeker</option><option value="ThatBurntWriter">ThatBurntWriter</option><option value="DelilahDoe">DelilahDoe</option><option value="Pablo_M_Pereyra">Pablo_M_Pereyra</option><option value="PR_Rybeck">PR_Rybeck</option><option value="MettaMike">MettaMike</option><option value="ProsSpeaks">ProsSpeaks</option><option value="LotusTongue">LotusTongue</option><option value="vss365official">vss365official</option><option value="DanielC55186873">DanielC55186873</option><option value="jaime_dill">jaime_dill</option><option value="AmellMirai">AmellMirai</option><option value="Creatrix_Guru">Creatrix_Guru</option><option value="VPetroudi">VPetroudi</option><option value="EnsignPyro">EnsignPyro</option><option value="DzintraSullivan">DzintraSullivan</option><option value="voimaoy">voimaoy</option><option value="flossybunny">flossybunny</option><option value="atreya2112">atreya2112</option><option value="JanetWaters13">JanetWaters13</option><option value="LadySabrielle">LadySabrielle</option><option value="bofferson">bofferson</option><option value="zevonesque">zevonesque</option><option value="MurphyLorr">MurphyLorr</option><option value="mordoc1">mordoc1</option><option value="SalnPage">SalnPage</option><option value="Hortonious101">Hortonious101</option><option value="iam_nirupama">iam_nirupama</option><option value="tiannag92">tiannag92</option><option value="Neelt2001">Neelt2001</option><option value="cely717">cely717</option><option value="janalynnjenks">janalynnjenks</option><option value="sarikajaswani">sarikajaswani</option><option value="JonathanGChew">JonathanGChew</option><option value="rachelnewcombe8">rachelnewcombe8</option><option value="FlashDogs">FlashDogs</option><option value="CBethAnderson">CBethAnderson</option><option value="whithernow">whithernow</option><option value="JennyGaitskell">JennyGaitskell</option><option value="JRBournville">JRBournville</option><option value="starfish_72">starfish_72</option><option value="EvitaGrazia">EvitaGrazia</option><option value="blsamaddar">blsamaddar</option><option value="mapdevil">mapdevil</option><option value="debbieiancu">debbieiancu</option><option value="fruitbatwoman">fruitbatwoman</option><option value="firdausp">firdausp</option><option value="senselessrenee">senselessrenee</option><option value="teabeesea">teabeesea</option><option value="poetguygabe">poetguygabe</option><option value="TheSurrealAri">TheSurrealAri</option><option value="VicenteLRuiz">VicenteLRuiz</option><option value="WritingDreamer">WritingDreamer</option><option value="boredwizard">boredwizard</option><option value="fhaedra">fhaedra</option><option value="moomooseum">moomooseum</option><option value="KelvinROfficial">KelvinROfficial</option><option value="el_stevie">el_stevie</option><option value="kara_goughnour">kara_goughnour</option><option value="jshaw_six">jshaw_six</option><option value="sian_ink">sian_ink</option><option value="spoonerwrites">spoonerwrites</option><option value="CallMeChel_324">CallMeChel_324</option><option value="Nina7Infinity">Nina7Infinity</option><option value="RozLevens">RozLevens</option><option value="fuller_edward">fuller_edward</option><option value="deft_notes">deft_notes</option><option value="silveringofrose">silveringofrose</option><option value="LeChatGris3">LeChatGris3</option><option value="EdHaiku575">EdHaiku575</option><option value="banjomediocrity">banjomediocrity</option><option value="perilousreading">perilousreading</option><option value="1Baroque">1Baroque</option><option value="NACalvoWrites">NACalvoWrites</option><option value="ESWarriorPoet">ESWarriorPoet</option><option value="_Irene_Dreams_">_Irene_Dreams_</option><option value="hungryghostpoet">hungryghostpoet</option><option value="LV_matthews">LV_matthews</option><option value="PatchieSteve">PatchieSteve</option><option value="ArthurUnkTweets">ArthurUnkTweets</option><option value="SobrietyStories">SobrietyStories</option><option value="RoweWrites">RoweWrites</option><option value="ElenaMarieBall">ElenaMarieBall</option><option value="SimonPsychosis">SimonPsychosis</option><option value="misskeelahrose">misskeelahrose</option><option value="TunnelroadUS">TunnelroadUS</option><option value="esthervdheuvel1">esthervdheuvel1</option><option value="TheWritingKind">TheWritingKind</option><option value="nreillyjohnson">nreillyjohnson</option><option value="AuthorBertEdens">AuthorBertEdens</option><option value="49JDBlood">49JDBlood</option><option value="jdog90">jdog90</option><option value="therealSIR3">therealSIR3</option><option value="Folabz_">Folabz_</option><option value="ethandavidlee">ethandavidlee</option><option value="KindaSquirrelly">KindaSquirrelly</option><option value="PoetStur">PoetStur</option><option value="SchatzSpeaks">SchatzSpeaks</option><option value="ThelmaMantey">ThelmaMantey</option>
+    </select>
+    <button type="submit">Search</button>
+  </form>
+</div>
+</section>
+
+  </main>
+
+  <footer>
+  <div>2019 - 2024 <a rel="noopener noreferrer" href="https://codetri.net">Caleb</a></div>
+</footer>
+
+  <script type="module" src="/static/js/script.js"></script>
+  <script type="module" src="/static/js/alerts.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/tail.select@0.5.15/js/tail.select.min.js"></script>
+<script type="module" src="/static/js/search.js"></script>
+
+</body>
+</html>
