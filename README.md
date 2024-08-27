@@ -1,9 +1,9 @@
 # #vss365 today Archive
-> Static file archive of https://vss365today.com
+> Static file archive of #vss365 today
 
 ## History
 
-#vss365 today was a hobby project designed to get the [#vss365](https://x.com/vss365official) prompt
+_#vss365 today_ was a hobby project designed to get the [#vss365](https://x.com/vss365HQ) prompt
 into the hands of authors more easily. Originally designed for personal use, it expanded into a
 full archive of every prompt given, a way to search through the prompts, statistics about every
 prompt used each year, and daily emails containing the day's prompt.
