@@ -12,7 +12,7 @@ export function renderAlerts() {
   let alerts = alertsRaw === null ? [] : JSON.parse(alertsRaw);
 
   alerts.forEach(v => {
-    let msg = `<div class="msg-alert ${v.level}" role="alert">
+    let msg = `<div class="msg-alert ${v.level}" role="alert">t
       <p>${v.message}</p>
       <img class="btn-close" width="25" height="25" alt="" src="/static/img/close.svg">
     </div>`;
